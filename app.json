@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "foodReact",
+    "slug": "foodReact",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "newArchEnabled": true,
+    "platforms": ["ios", "android", "web"],
+    "userInterfaceStyle": "light",
+    "ios": {
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "This app uses the photo library to pick images"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
